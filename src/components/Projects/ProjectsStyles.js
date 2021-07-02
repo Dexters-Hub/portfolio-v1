@@ -44,7 +44,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #DFF3FF;
+  color: #b2e4fb;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -54,7 +54,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #feea41;
 `;
 
 export const Intro = styled.div`
@@ -94,11 +94,11 @@ export const ExternalLinks = styled.a`
 color:#FFFFFF;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #2B7683;
+background: #0c9be3;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #165864;
+  background: #0a88cf;
 
 }
 `;
@@ -109,6 +109,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #FFDE4D;
+color: #feea41;
 font-size: 1.5rem;
 `
