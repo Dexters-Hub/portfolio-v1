@@ -36,7 +36,7 @@ const Footer = () => {
         </SocialContainer>
       </SocialIconsContainer>
       
-          <CopySlogan>© 2020 COPYRIGHT.
+          <CopySlogan>© 2021 COPYRIGHT.
 ALL RIGHTS RESERVED.</CopySlogan>
         
     </FooterWrapper>
