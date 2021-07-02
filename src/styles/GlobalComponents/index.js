@@ -220,7 +220,8 @@ export const ButtonFront = styled.button`
   box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3)' : 'none'};
 
   &:hover {
-    opacity: 0;
+    background:${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : '#1989C2'};
+    opacity: 100;
   }
   &:focus {
     outline: none;

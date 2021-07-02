@@ -20,6 +20,7 @@ export const Container = styled.div`
 
 export const Span = styled.span`
   font-size: 2rem;
+  font-weight: 600;
   padding-left:1rem;
 `;
 export const Div1 = styled.div`
@@ -54,10 +55,10 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: white;
   transition: 0.4s ease;
   &:hover {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.75);
     opacity: 1;
     cursor: pointer;
   }
