@@ -7,7 +7,7 @@ const data = [
   { number: 10, text: 'Open Source Projects'},
   { number: 350, text: 'Students', },
   { number: 50, text: 'Github Followers', },
-  { number: 300, text: 'Github Contributions', }
+  { number: 300, text: 'Contributions', }
 ];
 
 const Accomplishments = () => (
