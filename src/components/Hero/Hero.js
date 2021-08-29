@@ -14,7 +14,7 @@ const Hero = (props) => (
         <SectionText>I love to solve problems with technology to make a better living for the people. Keenly, seeking an opportunity to develop my programming skills.
 
         </SectionText>
-        <Link href = '../../public/static/Alwin-John-Software-Engineer.pdf' download><a><Button onClick={props.handleClick}>Resume</Button></a></Link>
+        <a href = '../../public/static/Alwin-John-Software-Engineer' download><Button onClick={props.handleClick}>Resume</Button></a>
       </LeftSection>
     </Section>
   </>
