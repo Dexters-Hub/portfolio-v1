@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
@@ -14,7 +14,7 @@ const Hero = (props) => (
         <SectionText>I love to solve problems with technology to make a better living for the people. Keenly, seeking an opportunity to develop my programming skills.
 
         </SectionText>
-        <a href = '../../public/static/Alwin-John-Software-Engineer.pdf' download="Alwin-John-Software-Engineer.pdf"><Button onClick={props.handleClick}>Resume</Button></a>
+        <Link href = '../../public/static/Alwin-John-Software-Engineer.pdf' download><a><Button onClick={props.handleClick}>Resume</Button></a></Link>
       </LeftSection>
     </Section>
   </>
