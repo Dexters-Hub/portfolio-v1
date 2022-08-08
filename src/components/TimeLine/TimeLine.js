@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionParagraph, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 // const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -43,11 +43,43 @@ const Timeline = () => {
 //   }, []);
 
   return (
+    
     <Section id="about">
+      <SectionDivider divider colorAlt />
+
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>
-        I believe in the principle of "Love what you do"; Computer science is what I am passionate about since my younger age. A fan of experiments, innovations, and creative things. A Student and an enthusiastic developer.
-      </SectionText>
+      
+      <SectionParagraph>
+      I believe in the principle of ❤️ "Love what you do.";
+      </SectionParagraph>
+      <SectionParagraph>
+      I've been active in my college as a Tech Lead, Mentor, and JavaScript Learning Facilitator @TinkerHub. 
+      </SectionParagraph>
+
+      <SectionParagraph>
+      I am passionate about computer science and teaching. That's why I started a YouTube Channel 📺 where I teach computer science topics to students. Taken multiple sessions and workshops for the community on the topics like Git and GitHub, Contributing to Open Source Projects, App Development using Flutter, Bootcamps on Web Development, and a session on "How to Google like a pro" which is an essential skill for any developer.
+      </SectionParagraph>
+
+      <SectionParagraph>
+      I mentored several students regarding their development and career.
+      </SectionParagraph>
+
+      <SectionParagraph>
+      I worked as a Frontend React Developer on a startup. I have applied agile techniques that I learned during that time, worked with UI/UX Designers, and collaborated with the Web Team.
+      </SectionParagraph>
+
+      <SectionParagraph>I led two teams as a flutter developer by building mobile apps from scratch and publishing them in the google play store.</SectionParagraph>
+      
+      <SectionParagraph>
+      - I make websites using React and Next
+      </SectionParagraph>
+      <SectionParagraph>
+      - I make 📱 apps using flutter
+      </SectionParagraph>
+      <SectionParagraph>
+      - Recently I have been selected for the GitHub Campus Expert Program 🚩
+
+      </SectionParagraph>
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -112,7 +144,7 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons> */}
-      <SectionDivider />
+      <SectionDivider divider />
     </Section>
   );
 };

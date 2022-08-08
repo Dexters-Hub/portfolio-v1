@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
 
-import { SocialIcons } from '../Header/HeaderStyles';
+import { SocialIcons } from '../Footer/FooterStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, CopySlogan,Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
@@ -20,23 +20,20 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
-        </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Dexters-Hub">
-            <AiFillGithub size="3rem" />
+            <AiFillGithub size="4rem" />
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/alwinjohn/">
-            <AiFillLinkedin size="3rem" />
+            <AiFillLinkedin size="4rem" />
           </SocialIcons>
           <SocialIcons href="https://www.youtube.com/c/AlwinJohn?sub_confirmation=1">
-            <AiFillYoutube size="3rem" />
+            <AiFillYoutube size="4rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
       
-          <CopySlogan>© 2021 COPYRIGHT.
+          <CopySlogan>© 2021 Alwin John.
 ALL RIGHTS RESERVED.</CopySlogan>
         
     </FooterWrapper>

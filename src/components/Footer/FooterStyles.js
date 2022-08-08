@@ -46,7 +46,7 @@ export const LinkItem = styled.a`
 export const SocialIconsContainer = styled.div`
 max-width: 1040px;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 
 @media ${props => props.theme.breakpoints.md}{
   display: flex;
@@ -108,6 +108,7 @@ export const CopySlogan = styled.p`
 	letter-spacing: 0.02em;
 	font-size: 18px;
 	line-height: 0px;
+	margin-top: 2em;
 	padding-top: 1rem;
 	display: flex;
 		justify-content: center;
@@ -117,6 +118,7 @@ export const CopySlogan = styled.p`
 		line-height: 28px;
 		display: flex;
 		justify-content: center;
+		margin-top: 1.2em;
 		
 	}
 
@@ -131,7 +133,8 @@ export const CopySlogan = styled.p`
 
 export const SocialContainer = styled.div`
 	display: flex;
-  align-items: center;
+  justify-content: space-between;
+  
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
@@ -184,4 +187,20 @@ export const LinkTitle = styled.h4`
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
+`
+// Social Icons 
+
+export const SocialIcons = styled.a`
+transition: 0.3s ease;
+color: white;
+border-radius: 50px;
+  padding: 8px;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+&:hover {
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
+    
+}
 `
