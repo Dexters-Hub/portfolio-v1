@@ -9,7 +9,7 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Frontend Web Developer & <br />Flutter Developer
+          Frontend React Developer & <br />Flutter Developer
         </SectionTitle>
         <SectionText>I love to solve problems with technology to make a better living for the people. Keenly, seeking an opportunity to develop my programming skills.
 

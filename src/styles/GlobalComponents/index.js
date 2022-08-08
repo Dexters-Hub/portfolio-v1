@@ -76,6 +76,29 @@ export const SectionText = styled.p`
   }
 `
 
+export const SectionParagraph = styled.p`
+  max-width: 1100px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  
+  padding-bottom: 2.6rem;
+  color: white;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 770px;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 24px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+`
+
 export const SectionDivider = styled.div`
 
   width: 64px;
