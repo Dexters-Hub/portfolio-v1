@@ -21,7 +21,7 @@ const Accomplishments = () => (
         </Box>
       ))}
     </Boxes>
-    <SectionDivider divider/>
+    
   </Section>
 );
 
