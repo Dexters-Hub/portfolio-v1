@@ -19,6 +19,11 @@ export const InputTextField = styled.input`
     background-color: transparent;
     outline: none;
     margin-bottom: 2em;
+
+    @media ${props => props.theme.breakpoints.sm} {
+      width: 250px;
+      font-size:16px;
+  }
 `;
 
 export const FormContainer = styled.form`
